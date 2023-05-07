@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+
+  <meta charset="UTF-8">
+  <!-- <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="John Doe"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>騎士洋酒</title>
+  <link href="./photo/icon.png" rel="icon" type="image/png">
+
+  <link rel="stylesheet" href="./indexcss/footer.css">
+  <link rel="stylesheet" href="./indexcss/header.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="./indexcss/goto_top.css">
+  <link rel="stylesheet" href="./indexcss/nav.css">
+  <link rel="stylesheet" href="./another_page_css/winemap.css">
+  <link rel="stylesheet" href="./another_page_css/white_main.css">
+  <link rel="stylesheet" href="./bootstrap/loading.css">
+  <link rel="stylesheet" href="./imageToBig_white_wine.css">
+
+  <style>
+    #headerblock {
+      background-color: rgb(0, 66, 66);
+      position: fixed;
+      display: flex;
+      width: 100%;
+      z-index: 2;
+      top: 0%;
+      color: rgb(0, 66, 66);
+    }
+  </style>
+
+</head>
+
+<body>
+    <span id="headerblock">&nbsp;</span>
+    <header><a href="./index_main.html">
+        <div>
+          <img class="logo1" src="./photo/logo1_1.png">
+        </div>
+        <div>
+          <img class="logo2" src="./photo/logo1_2.png">
+        </div>
+      </a>
+    </header>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark" style="position: fixed;">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">威士忌</a>
+              <ul class="dropdown-menu">
+                <li><a id="downlist" class="dropdown-item" href="./single_malt.html">單一純麥威士忌</a></li>
+                <li><a id="downlist" class="dropdown-item" href="./single_grain.html">單一穀物威士忌</a></li>
+              </ul>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">葡萄酒</a>
+              <ul class="dropdown-menu">
+                <li><a id="downlist" class="dropdown-item" href="./red_wine.html">紅葡萄酒</a></li>
+                <li><a id="downlist" class="dropdown-item" href="./white_wine.html">白葡萄酒</a></li>
+              </ul>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">探索所愛</a>
+              <ul class="dropdown-menu">
+                <li><a id="downlist" class="dropdown-item" href="./index_main.html#tag_zone">威士忌介紹</a></li>
+                <li><a id="downlist" class="dropdown-item" href="./index_main.html#tag_wine">葡萄酒介紹</a></li>
+              </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="./store_info.html">店鋪資訊</a>
+            </li>
+  
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="page_name">| 白葡萄酒 |</div>
+    <img class="ld ld-jingle" src="./photo/white_grapes_icon.png" style="float: right;margin-top: 75px;width: 28px;">
+    <div id="mapSearchBox">
+    <img id="map" src="./photo/wine_map.jpg" alt="">
+    <a id="canada" href="./white_wine.html#canada_white_item">加拿大</a>
+    <a id="usa" href="./white_wine.html#usa_white_item">美利堅</a>
+    <a id="chile" href="./white_wine.html#chile_white_item">智利呀</a>
+    <a id="argen" href="./white_wine.html#argen_white_item">阿根廷阿</a>
+    <a id="aus" href="./white_wine.html#aus_white_item">澳洲呀澳</a>
+    <a id="newzea" href="./white_wine.html#newzea_white_item">紐西蘭呀</a>
+    </div>
+
+    <main>
+      <p id="usa_white_item" style="position: relative;top:-70px"></p>
+      <div>
+        <h3 class="title"><b>【&nbsp;&nbsp;&nbsp;美國&nbsp;&nbsp;&nbsp;】</b></h3>
+      </div>
+  
+      <table style="margin-left: 5%;">
+        <tr>
+          <th style="width: 13.8%;    vertical-align:sub;">
+            <div style="display: block;float:left;width: 30px;">&nbsp;</div>
+            <!-- <a target="_blank" href="https://www.libaga.com.tw/uploads/drink/8d462ac812b72f6889a80c7f8f3e2f58.jpg">
+            <img id="item_img" src="./photo/Les Belles Collines, California Pinot Gris 2012.jpg" alt="">
+          </a> -->
+          <div class='image1 imageSele'></div>
+            <p class="detail">&nbsp;750ml&nbsp;&nbsp;13.4%</p>
+          </th>
+          <th>
+            <ul id="word_des" style="list-style-type: square;">
+              <h4 id="item_name">美麗山丘莊園, 納帕河谷, 加州灰皮諾 2012</h4>
+              <h6 id="foreign_name">Les Belles Collines, California Pinot Gris 2012</h6>
+              <p style="height: 0.1px;">
+                <li class="item_des" style="color:darkslategrey;">奔放果香的灰皮諾。</li>
+                <li class="item_des"  style="color:darkslategrey;">充滿熱帶水果和甜香草，略帶有荔枝的甜美香氣。</li>
+                <li class="item_des" style="color:darkslategrey;">混合三種產區的特色名釀。</li>
+                <br><br><br><br>
+            </ul>
+          </th>
+        </tr>
+      </table>
+      
+      <p id="chile_white_item" style="position: relative;top:-70px"></p>
+      <div>
+        <h3 class="title"><b>【&nbsp;&nbsp;&nbsp;智利&nbsp;&nbsp;&nbsp;】</b></h3>
+      </div>
+  
+      <table style="margin-left: -1%;">
+        <!-- <tr>
+          <th style="width: 13.8%;    vertical-align:sub;">
+            <img id="item_img" src="" alt="">
+            <p class="detail">&nbsp; &nbsp;&nbsp; </p>
+          </th> -->
+          <p  style="position: absolute;left: 45.9%;">-目前無相關品項-</p>
+          <br><br><br>
+      </table>
+
+      <p id="argen_white_item" style="position: relative;top:-70px"></p>
+      <div>
+        <h3 class="title"><b>【&nbsp;阿根廷&nbsp;】</b></h3>
+      </div>
+  
+      <table style="margin-left: 5%;">
+        <tr>
+          <th style="width: 13.8%;    vertical-align:sub;">
+            <div style="display: block;float:left;width: 30px;">&nbsp;</div>
+            <!-- <a target="_blank" href="https://www.libaga.com.tw/uploads/drink/761f92d525212afaf1b7d72881f862e2.jpg">
+            <img id="item_img" src="./photo/Torrontes, Mendoza, Ab Origins Mixtus Chardonna.jpg" alt="">
+          </a> -->
+          <div class='image2 imageSele'></div>
+            <p class="detail">&nbsp;750ml&nbsp;&nbsp;12%</p>
+          </th>
+          <th>
+            <ul id="word_des">
+              <h4 id="item_name">多倫鐵酒廠, 門多薩, 三風夏多內-多倫鐵白酒</h4>
+              <h6 id="foreign_name">Torrontes, Mendoza, Ab Origins Mixtus Chardonnay</h6>
+              <p style="height: 0.1px;">
+                <li class="item_des" style="color:darkslategrey;">檸檬與蜂蜜香氣伴隨些許紫花氣息。</li>
+                <li class="item_des"  style="color:darkslategrey;">喝起來清爽美味好入口。</li>
+                <br><br><br><br><br>
+            </ul>
+          </th>
+        </tr>
+      </table>
+
+
+
+      <p id="canada_white_item" style="position: relative;top:-70px"></p>
+      <div>
+        <h3 class="title"><b>【&nbsp;加拿大&nbsp;】</b></h3>
+      </div>
+  
+      <table style="margin-left: -1%;">
+        <!-- <tr>
+          <th style="width: 13.8%;    vertical-align:sub;">
+            <img id="item_img" src="" alt="">
+            <p class="detail">&nbsp; &nbsp;&nbsp; </p>
+          </th> -->
+          <p  style="position: absolute;left: 45.9%;">-目前無相關品項-</p>
+          <br><br><br>
+      </table>
+
+
+      <p id="aus_white_item" style="position: relative;top:-70px"></p>
+      <div>
+        <h3 class="title"><b>【&nbsp;&nbsp;&nbsp;澳洲&nbsp;&nbsp;&nbsp;】</b></h3>
+      </div>
+      <table style="margin-left: -1%;">
+        <!-- <tr>
+          <th style="width: 13.8%;    vertical-align:sub;">
+            <img id="item_img" src="" alt="">
+            <p class="detail">&nbsp; &nbsp;&nbsp; </p>
+          </th> -->
+          <p  style="position: absolute;left: 45.9%;">-目前無相關品項-</p>
+          <br><br><br>
+      </table>
+
+      <p id="newzea_white_item" style="position: relative;top:-70px"></p>
+      <div>
+        <h3 class="title"><b>【&nbsp;紐西蘭&nbsp;】</b></h3>
+      </div>
+  
+      <table style="margin-left: 5%;">
+        <tr>
+          <th style="width: 13.8%;    vertical-align:sub;">
+            <div style="display: block;float:left;width: 30px;">&nbsp;</div>
+            <!-- <a target="_blank" href="https://www.libaga.com.tw/uploads/drink/6bb3ad67e88773d5c9f7c7ce2ef2a17f.jpg">
+            <img id="item_img" src="./photo/Kim Crawford, Marlborough Sauvignon Blanc.jpg" alt="">
+          </a> -->
+          <div class='image3 imageSele'></div>
+            <p class="detail">&nbsp;750ml&nbsp;&nbsp;13%</p>
+          </th>
+          <th>
+            <ul id="word_des">
+              <h4 id="item_name">金卡佛酒廠, 馬博羅 - 白蘇維濃白酒</h4>
+              <h6 id="foreign_name">Kim Crawford, Marlborough Sauvignon Blanc</h6>
+              <p style="height: 0.1px;">
+                <li class="item_des">顏色 Color&nbsp;&nbsp;：<a>討喜宜人的淡綠色澤。</a></li> 
+                <li class="item_des">香氣 Nose&nbsp;&nbsp;&nbsp;：<a>鮮明的熱帶水果香氣結合典型馬博羅蘇維濃白酒特有的蕁麻和草本植物的芬芳。</a></li>
+                <li class="item_des">口感 Palate&nbsp;：<a>結實的酸度包覆淡淡甜美，熱帶水果和草本植物的芳香中隱約透出柑橘香氣。非常典型的馬博羅蘇維濃白酒口感。</a></li>
+                <br><br><br><br>
+            </ul>
+          </th>
+        </tr>
+      </table>
+      <br><br><br><br><br><br><br>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+    
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+    
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+    
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+      </script>
+<script src="./imageToBig.js"></script>
+
+    <footer>
+        <div class="err">禁止酒駕
+          <img class="icon1" src="./photo/bottomIcon1.png">
+          酒後不開車
+          <img class="icon1" src="./photo/bottomIcon2.png">
+          未滿18歲&nbsp;禁止飲酒
+        </div>
+      </footer>
+</body>
+</html>

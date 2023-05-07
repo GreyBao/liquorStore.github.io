@@ -1,0 +1,390 @@
+@keyframes movesqu {
+    0% {transform: rotate(0deg);}
+
+    25% {transform: rotate(-25deg);}
+
+    50% {transform: rotate(10deg);}
+
+    100% {transform: rotate(0deg);}
+}
+#page_name{
+  width: 104px;
+  font-size: 13px;
+  float: right;
+  margin-top: 80px;
+}
+/* #page_name{
+  color:gray;
+  display:block;     
+  margin:0 auto;   
+  text-align:right;
+  top: 78px;
+  right: 1%;
+  z-index: 0;
+  position: absolute;
+  font-size: large;
+} */
+
+
+
+
+@media only screen and (max-width: 200px)  {
+  header {
+      width:100%;
+      display: flex;
+      -webkit-box-align: center;
+      align-items: center;
+      border-top: solid 0.1em none;
+      border-bottom:  solid 0.1em none;
+      white-space: nowrap;
+      position: fixed;
+      top: 0px;
+      margin: auto;
+      z-index: 99;
+    }	 
+
+
+  .logo1{
+    position:fixed;
+    display:flex;
+    width: 1.5em;
+    left: 27.1em;
+    top:0.6em;
+    z-index: 99;
+
+  }
+  
+  .logo2{
+
+    position:fixed;
+    display:flex;
+    top: 2.5em;
+    width: 2.8em;
+    left: 26.5em;
+
+  }
+
+  header .logo1:hover {
+    z-index: 99;
+      position:fixed;
+      display:flex;
+      width: 1.5em;
+      left: 27.1em;  
+      background-repeat: no-repeat;
+      animation-name: movesqu;
+      animation-duration: 2s;
+      animation-iteration-count: 3;
+     
+  }
+  }
+
+
+@media only screen and (min-width: 200px)  {
+  header {
+      width:100%;
+      display: flex;
+      -webkit-box-align: center;
+      align-items: center;
+      border-top: solid 0.1em none;
+      border-bottom:  solid 0.1em none;
+      white-space: nowrap;
+      position: fixed;
+      top: 0px;
+      margin: auto;
+      z-index: 99;
+    }	 
+
+
+  .logo1{
+    position:fixed;
+    display:flex;
+    width: 1.5em;
+    left: 27.1em;
+    top:0.6em;
+    z-index: 99;
+
+  }
+  
+  .logo2{
+    position:fixed;
+    display:flex;
+    top: 2.5em;
+    width: 2.8em;
+    left: 26.5em;
+
+  }
+
+  header .logo1:hover {
+    z-index: 99;
+      position:fixed;
+      display:flex;
+      width: 1.5em;
+      left: 27.1em;  
+      background-repeat: no-repeat;
+      animation-name: movesqu;
+      animation-duration: 2s;
+      animation-iteration-count: 3;
+     
+  }
+  }
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px)  {
+  header {
+    width:100%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    border-top: solid 0.1em none;
+    border-bottom:  solid 0.1em none;
+    white-space: nowrap;
+    position: fixed;
+    top: 0px;
+    margin: auto;
+    z-index: 99;
+  }	 
+
+
+.logo1{
+    position: absolute;
+  position:fixed;
+  display:flex;
+  width: 1.5em;
+  left: 27.1em;
+  top:0.6em;
+  z-index: 99;
+
+}
+
+.logo2{
+  position:fixed;
+  display:flex;
+  top: 2.5em;
+  width: 2.8em;
+  left: 26.5em;
+
+}
+
+header .logo1:hover {
+  z-index: 99;
+    position:fixed;
+    display:flex;
+    width: 1.5em;
+    left: 27.1em;
+    background-repeat: no-repeat;
+    animation-name: movesqu;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+   
+}
+  }
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    header {
+        width:100%;
+        z-index: 1;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        border-top: solid 0.1em none;
+        border-bottom:  solid 0.1em none;
+        white-space: nowrap;
+        position: fixed;
+        top: 0px;
+        margin: auto;
+        z-index: 99;
+      }	 
+
+
+    .logo1{
+      position:fixed;
+      display:flex;
+      left: 51.29%;  
+      z-index: 99;
+      width: 1.6em;
+    }
+    
+    .logo2{
+      position:fixed;
+      display:flex;
+      top: 2.5em;
+      width: 3.4em;
+      left: 49.8%;
+      z-index: 99;
+
+    }
+
+    header .logo1:hover {
+      z-index: 99;
+        position:fixed;
+        display:flex;
+        left: 51.29%;  
+        width: 1.6em;
+        background-repeat: no-repeat;
+        animation-name: movesqu;
+        animation-duration: 2s;
+        animation-iteration-count: 3;
+       
+    }
+    }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    header {
+        width:100%;
+        z-index: 1;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        border-top: solid 0.1em none;
+        border-bottom:  solid 0.1em none;
+        white-space: nowrap;
+        position: fixed;
+        top: 0px;
+        margin: auto;
+        z-index: 99;
+      }	 
+
+
+    .logo1{
+        position: absolute;
+      position:fixed;
+      display:flex;
+      left: 51.2%;  
+      width: 1.6em; 
+      z-index: 99;
+    }
+    
+    .logo2{
+      position:fixed;
+      display:flex;
+      top: 2.5em;
+      width: 3.4em;
+      left: 50%;
+      z-index: 99;
+
+    }
+
+    header .logo1:hover {
+      z-index: 1;
+        position:fixed;
+        display:flex;
+        left: 51.2%;   
+        width: 1.6em; 
+        background-repeat: no-repeat;
+        animation-name: movesqu;
+        animation-duration: 2s;
+        animation-iteration-count: 3;
+        z-index: 99;
+       
+    }
+    
+  }
+  
+  @media only screen and (min-width: 1000px) {
+    header {
+        width:100%;
+        z-index: 1;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        border-top: solid 0.1em none;
+        border-bottom:  solid 0.1em none;
+        white-space: nowrap;
+        position: fixed;
+        top: 0px;
+        margin: auto;
+        z-index: 99;
+        
+      }	 
+
+
+    .logo1{
+      position:fixed;
+      display:flex;
+      width: 1.6em; 
+      left: 50%;  
+      z-index: 99;
+    }
+    
+    .logo2{
+      position:fixed;
+      display:flex;
+      top: 2.5em;
+      width: 3.4em;
+      left: 49.09%;
+      z-index: 99;
+
+    }
+
+    header .logo1:hover {
+      z-index: 1;
+        position:fixed;
+        display:flex;
+        width: 1.6em; 
+        left: 50%;  
+        background-repeat: no-repeat;
+        animation-name: movesqu;
+        animation-duration: 2s;
+        animation-iteration-count: 3;
+        z-index: 99;
+       
+    }
+    
+  }
+
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1550px) {
+    header {
+        width:100%;
+        z-index: 1;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        border-top: solid 0.1em none;
+        border-bottom:  solid 0.1em none;
+        white-space: nowrap;
+        position: fixed;
+        top: 0px;
+        margin: auto;
+        z-index: 99;
+        
+      }	 
+
+
+    .logo1{
+      position:fixed;
+      display:flex;
+      width: 1.6em; 
+      left: 49.8%;  
+      z-index: 99;
+    }
+    
+    .logo2{
+      position:fixed;
+      display:flex;
+      top: 2.5em;
+      width: 3.4em;
+      left: 49.09%;
+      z-index: 99;
+
+    }
+
+    header .logo1:hover {
+      z-index: 1;
+        position:fixed;
+        display:flex;
+        width: 1.6em; 
+        left: 49.8%;    
+        background-repeat: no-repeat;
+        animation-name: movesqu;
+        animation-duration: 2s;
+        animation-iteration-count: 3;
+        z-index: 99;
+       
+    }
+    
+  }

@@ -1,0 +1,45 @@
+
+.imageSele[zoomed]{
+    background-size: 500px 500px;
+    background-position: calc(var(--x)*100%) 
+    calc(var(--y)*100%);
+    border-radius: 10%;
+    transition: .4s ease-out;
+    box-shadow: 0 0 5px rgba(255,255,255,.3), inset 0 0 5px rgba(0,0,0,.3);
+}
+div[class^="image"] {
+    width: 300px;
+    height: 300px;
+    background-color: #000;
+    background-size: 300px 300px;
+    background-repeat: no-repeat;
+    filter: brightness(110%);
+}
+
+.image1{
+    background-image: url("https://www.libaga.com.tw/uploads/drink/b483af070bfbf8fcc2022d5e8a644eda.jpg");
+}
+
+.image2{
+    background-image: url("https://www.libaga.com.tw/uploads/drink/b087f4401efd3c122279ec3b6e417410.JPG");
+}
+
+.image3{
+    background-image: url("https://www.libaga.com.tw/uploads/drink/40730b4f669edc9711ca79380d5b689a.jpg");
+}
+
+.image4{
+    background-image: url("https://www.libaga.com.tw/uploads/drink/e8f9062ca701ea2320530c030dac0ada.JPG");
+}
+
+.image5{
+    background-image: url("https://www.libaga.com.tw/uploads/drink/bdb9ebce72e26c694890f1c93f1996fd.jpg");
+}
+
+.image6{
+    background-image: url("https://www.libaga.com.tw/uploads/drink/c0c8224cd3aa153bc57760dbaffa205b.jpg");
+}
+
+.image7{
+    background-image: url("https://www.libaga.com.tw/uploads/drink/6ff1c9161a78dce1cbae8e042c4ccc04.jpg");
+}
