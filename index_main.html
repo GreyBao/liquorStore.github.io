@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+
+  <meta charset="UTF-8">
+  <!-- <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="John Doe"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <title>騎士洋酒</title>
+  <link href="./photo/icon.png" rel="icon" type="image/png">
+  <link rel="stylesheet" href="./indexcss/footer.css">
+  <link rel="stylesheet" href="./indexcss/header.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="./indexcss/goto_top.css">
+  <link rel="stylesheet" href="./indexcss/nav.css">
+  <link rel="stylesheet" href="./indexcss/banner.css">
+  <link rel="stylesheet" href="./indexcss/main.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+  <style>
+    #headerblock {
+      background-color: rgb(0, 66, 66);
+      position: fixed;
+      display: flex;
+      width: 100%;
+      z-index: 2;
+      top: 0%;
+      color: rgb(0, 66, 66);
+    }
+  </style>
+</head>
+
+<body>
+  <div id="headerblock">&nbsp;</div>
+  <header><a href="./index_main.html">
+      <div>
+        <img class="logo1" src="./photo/logo1_1.png">
+      </div>
+      <div>
+        <img class="logo2" src="./photo/logo1_2.png">
+      </div>
+    </a>
+  </header>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark" style="position: fixed;">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">威士忌</a>
+            <ul class="dropdown-menu">
+              <li><a id="downlist" class="dropdown-item" href="./single_malt.html">單一純麥威士忌</a></li>
+              <li><a id="downlist" class="dropdown-item" href="./single_grain.html">單一穀物威士忌</a></li>
+            </ul>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">葡萄酒</a>
+            <ul class="dropdown-menu">
+              <li><a id="downlist" class="dropdown-item" href="./red_wine.html">紅葡萄酒</a></li>
+              <li><a id="downlist" class="dropdown-item" href="./white_wine.html">白葡萄酒</a></li>
+            </ul>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">探索所愛</a>
+            <ul class="dropdown-menu">
+              <li><a id="downlist" class="dropdown-item" href="./index_main.html#tag_zone">威士忌介紹</a></li>
+              <li><a id="downlist" class="dropdown-item" href="./index_main.html#tag_wine">葡萄酒介紹</a></li>
+            </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="./store_info.html">店鋪資訊</a>
+          </li>
+
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <!-- <div class="numbertext">1 / 3</div> -->
+      <img src="./photo/on_sale.jpg" style="width:100%">
+      <!-- <div class="text">Caption Text</div> -->
+    </div>
+
+    <div class="mySlides fade">
+      <!-- <div class="numbertext">2 / 3</div> -->
+      <img src="./photo/menu_photo_spirits.jpg" style="width:100%">
+      <!-- <div class="text">Caption Two</div> -->
+    </div>
+
+    <div class="mySlides fade">
+      <!-- <div class="numbertext">3 / 3</div> -->
+      <img src="./photo/menu_photo_wine.jpg" style="width:100%">
+      <!-- <div class="text">Caption Three</div> -->
+    </div>
+
+  </div>
+  <br>
+  <div style="text-align:center;" class="mudot">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+  <main>
+    <h3 id="title"><b>【威士忌】</b></h3>
+    <h5 id="subtitle">單一麥芽 / 單一穀物</h5>
+
+    <p id="word_kind">
+      「單一」這個詞指的是僅使用「同一家蒸餾廠」所生產的原酒；而單一一詞後面接的「麥芽」與「穀物」，就分別代表是以發芽「大麥」或是「非大麥（穀物類）」原料製酒。因此，單一麥芽/單一穀物的意思就是「同一家酒廠以大麥/非大麥所生產的原酒進行釀製」的威士忌。
+      其中，單一麥芽威士忌也有「單一『純麥』威士忌」的說法，經發酵、蒸餾、陳年後的風味較為特殊，旨在彰顯蒸餾廠的特色之處、強調生產地的風土情懷，也榮登最受台灣人喜愛與歡迎的酒款分類。然而，坊間常見的美國「波本Bourbon威士忌（主要原料為玉米）」與「裸麥Rye威士忌（主要原料為又稱黑麥的裸麥）」都含括在穀物威士忌分類之下，層次感十足的特殊滋味也讓其擁有一票死忠粉絲。但要記得，所謂的「單一」可不是單一酒桶的意思喔！
+    </p>
+    <p id="tag_zone" style="position: relative;top:-70px"></p>
+
+    <h3 id="title"><b>【威士忌】</b></h3>
+    <h5 id="subtitle">威士忌產區介紹</h5>
+
+    <iframe style="margin-left:20%; position:relative;" width="60%" height="480"
+      src="https://www.youtube.com/embed/91wA5JsYlgY" title="威士忌5大產區　一次搞定【林一峰Whisky School威士忌第3課】" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+    <br><br>
+
+    <div class="box" data-aos="fade-up">
+      <img class="landImg" src="./photo/Lowland.jpg">
+      </div>
+        <h6 id="subtitle_zone"  data-aos="fade-up">1.低地區（Lowland）</h6>
+        <p id="word_zone"  data-aos="fade-up">
+          此區過去生產的酒款多以供應調合式威士忌或其他調味用利口酒為主，因此酒款較為清淡。三次蒸餾一般是在愛爾蘭威士忌中比較常見，蒸餾過後的酒體雖然會比較清澈、口感也偏清爽。推薦給喜歡口感較為輕盈、味道乾淨清澈的酒友。
+        </p>        <br><br><br>
+
+
+
+        <div class="box" data-aos="fade-up">
+          <img class="landImg" src="./photo/Highland.jpg">
+          </div>
+      <h6 id="subtitle_zone"  data-aos="fade-up">2.高地區（Highland）</h6>
+      <p id="word_zone"  data-aos="fade-up">
+        以水果蛋糕和橡木為風味主導，一面與石楠花和煙燻味調情，狂野的大海和堅不可摧的沼地主宰著這片風景，同時也為花香、絲緞般的優雅留下了想像空間，高地區，可說是蘇格蘭威士忌最多元的風景！
+      </p>        <br><br><br>
+
+      <div class="box" data-aos="fade-up">
+        <img class="landImg" src="./photo/Speyside.jpg">
+      </div>
+      <h6 id="subtitle_zone"  data-aos="fade-up">3.斯貝賽區（Speyside）</h6>
+ 
+      <p id="word_zone"  data-aos="fade-up">
+        斯貝賽區最厲害的地方就在於酒廠密度居於全蘇格蘭之冠。而這一區的酒大多都具有飽滿的麥芽香氣與濃厚的花果香，與台灣人喜歡的味道十分接近，喜歡花果調性的你一定不能錯過。
+      </p> <br><br><br>
+
+      <div class="box"  data-aos="fade-up">
+        <img class="landImg" src="./photo/Islay.jpg" style="height: 90%">
+      </div>
+      <h6 id="subtitle_zone"  data-aos="fade-up">4.艾雷島區（Islay）</h6>
+      <p id="word_zone"  data-aos="fade-up">
+        艾雷島的威士忌保有強烈的泥煤以及煙燻風格，再加上海風終年的吹拂，才能釀造出世人所尊稱的「正露丸口味」以及「消毒水風味」！
+      </p> <br><br><br>
+
+      <div class="box" data-aos="fade-up">
+        <img class="landImg" src="./photo/Island.jpg" style="height:110%">
+        </div>
+      <h6 id="subtitle_zone" data-aos="fade-up">5.島嶼區（Island）</h6>
+      <p id="word_zone" data-aos="fade-up">
+        蘇格蘭地處高緯，早期受到冰河擠壓，地形十分破碎，因此造就了相當多的島嶼。而島嶼區的酒款，特別是陳年威士忌，因為長年受到強勁海風吹拂，都有著明顯的鹹味和碘味，對於初學者來說，接受度可能就因人而異了。
+      </p> <br><br>
+
+      <div class="box" data-aos="fade-right">
+        <img class="landImg" src="./photo/Campbeltown.jpg" style="height: 90%">
+        <div class="description">      </div></div>
+      <h6 id="subtitle_zone" data-aos="fade">6.坎培爾鎮區（Campbeltown）</h6>
+      <p id="word_zone" data-aos="fade">
+        曾幾何時，坎貝爾鎮也曾被譽為是「威士忌的首都」，可說是紅極一時，
+        威士忌擁有獨特的油潤煙燻風格。
+      </p> <br><br><br><br>
+
+      <p id="tag_wine" style="position: relative;top:-70px"></p>
+      <h3 id="title"><b>【葡萄酒】</b></h3>
+      <h5 id="subtitle">葡萄酒品種介紹</h5>
+      <iframe style="margin-left:20%; position:relative;" width="60%" height="480"
+        src="https://www.youtube.com/embed/3M1wQppAGFI" title="【常常好食】Cheers! 一定要認識的六大葡萄酒品種《超級葡萄酒大辭典 A-Z》"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+
+      </p>
+
+      <br><br>
+  </main>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
+  <script>
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+  <footer>
+    <div class="err">禁止酒駕
+      <img class="icon1" src="./photo/bottomIcon1.png">
+      酒後不開車
+      <img class="icon1" src="./photo/bottomIcon2.png">
+      未滿18歲&nbsp;禁止飲酒
+    </div>
+  </footer>
+
+  <script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1 }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      setTimeout(showSlides, 3000); // Change image every 3 seconds
+    }
+  </script>
+  <script>
+    AOS.init({
+      duration: 2000,
+    });
+  </script>
+
+
+</body>
+
+</html>

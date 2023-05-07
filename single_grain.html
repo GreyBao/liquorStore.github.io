@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+
+  <meta charset="UTF-8">
+  <!-- <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="John Doe"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>騎士洋酒</title>
+  <link href="./photo/icon.png" rel="icon" type="image/png">
+
+  <link rel="stylesheet" href="./indexcss/footer.css">
+  <link rel="stylesheet" href="./indexcss/header.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="./indexcss/goto_top.css">
+  <link rel="stylesheet" href="./indexcss/nav.css">
+  <!-- <link rel="stylesheet" href="./another_page_css/whiskymap.css"> -->
+  <link rel="stylesheet" href="./another_page_css/whisky_grain_main.css">
+  <link rel="stylesheet" href="./bootstrap/loading.css">
+  <link rel="stylesheet" href="./imageToBig_single_grain.css">
+  <style>
+    #headerblock {
+      background-color: rgb(0, 66, 66);
+      position: fixed;
+      display: flex;
+      width: 100%;
+      z-index: 2;
+      top: 0%;
+      color: rgb(0, 66, 66);
+    }
+  </style>
+
+</head>
+
+<body>
+  <span id="headerblock">&nbsp;</span>
+  <header><a href="./index_main.html">
+      <div>
+        <img class="logo1" src="./photo/logo1_1.png">
+      </div>
+      <div>
+        <img class="logo2" src="./photo/logo1_2.png">
+      </div>
+    </a>
+  </header>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark" style="position: fixed;">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">威士忌</a>
+            <ul class="dropdown-menu">
+              <li><a id="downlist" class="dropdown-item" href="./single_malt.html">單一純麥威士忌</a></li>
+              <li><a id="downlist" class="dropdown-item" href="./single_grain.html">單一穀物威士忌</a></li>
+            </ul>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">葡萄酒</a>
+            <ul class="dropdown-menu">
+              <li><a id="downlist" class="dropdown-item" href="./red_wine.html">紅葡萄酒</a></li>
+              <li><a id="downlist" class="dropdown-item" href="./white_wine.html">白葡萄酒</a></li>
+            </ul>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">探索所愛</a>
+            <ul class="dropdown-menu">
+              <li><a id="downlist" class="dropdown-item" href="./index_main.html#tag_zone">威士忌介紹</a></li>
+              <li><a id="downlist" class="dropdown-item" href="./index_main.html#tag_wine">葡萄酒介紹</a></li>
+            </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="./store_info.html">店鋪資訊</a>
+          </li>
+
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="page_name">|單一穀物威士忌|</div>
+  <img class="ld ld-metronome" src="./photo/grain_icon.png" style="float: right;margin-top: 75px;width: 30px;">
+  <a href="./single_grain.html#domestic" style="
+  display: block;margin:90px 30px;position: absolute;
+  color: black;
+  text-decoration-line: none;
+  background-color: rgba(128, 128, 128, 0.171);
+  border-radius: 80px;">
+    &nbsp;#本國&nbsp;&nbsp;
+  </a>
+  <a href="./single_grain.html#foreign" style="
+  display: block;margin:90px 105px;position: absolute;
+  color: black;
+  text-decoration-line: none;
+  background-color: rgba(128, 128, 128, 0.171);
+  border-radius: 80px;">
+    &nbsp;#國際&nbsp;&nbsp;
+  </a>
+
+  <!-- <div id="mapSearchBox">
+  <h6 style="font-size: x-large;text-align: center;" >&nbsp;蘇&nbsp;格&nbsp;蘭&nbsp;產&nbsp;區</h6>
+  
+      <img id="map" src="./photo/scotland_map.gif" alt="">
+  
+      <a id="island1" href="./single_grain.html#island_item">島嶼區一一</a>
+      <a id="island2" href="./single_grain.html#island_item">島嶼區二</a>
+      <a id="islay" href="./single_grain.html#islay_item">艾雷島區</a>
+      <a id="camp" href="./single_grain.html#camp_item">坎培爾鎮區1</a>
+      <a id="spey" href="./single_grain.html#spey_item">斯佩賽斯區</a>
+      <a id="highland" href="./single_grain.html#highland_item">高的地區</a>
+      <a id="lowland" href="./single_grain.html#lowland_item">低的地區</a>
+  </div> -->
+  
+  <main>
+    <p id="domestic" style="position: relative;top:-70px"></p>
+    <div>
+      <h3 class="title"><b>【本國】</b></h3>
+    </div>
+
+    <table style="margin-left: 5%;margin-top: 0%;">
+      <tr>
+        <th style="width: 13.8%;    vertical-align:sub;">
+          <!-- <a target="_blank" href="./photo/TTL - Taichung Distillery Single Grain Whisky Cas.jpg">
+          <img id="item_img" src="./photo/TTL - Taichung Distillery Single Grain Whisky Cas.jpg" alt="">
+        </a> -->
+        <div class='image1 imageSele'></div>
+          <p class="detail">&nbsp;700ml&nbsp;&nbsp;55.4%</p>
+        </th>
+        <th>
+          <ul id="word_des">
+            <h4 id="item_name">台中酒廠 穀蘊 原桶強度單一穀類威士忌 雪莉桶</h4>
+            <h6 id="foreign_name">TTL - Taichung Distillery Single Grain Whisky Cask Strength Bourbon Cask</h6>
+            <p style="height: 0.1px;">
+
+              <li class="item_des">香氣 Nose&nbsp;&nbsp;：<a>香草、爆米花香氣為主，中層展現出奶油、蜂蜜及焦糖等甜美氣息，接著以杉木、肉桂等木質調性收尾。</a> </li>
+              <li class="item_des">口感 Palate&nbsp;：<a>入口則感受到濃郁椰子糖甜香，伴隨穀類及木質單寧，帶來苦甜交織的韻味。</a></li>
+              <li class="item_des">尾韻 Finish&nbsp;：<a>尾韻呈現中草藥、咖啡等風味，酒體飽滿厚實，複雜多變。</a></li>
+              <br><br><br><br>
+          </ul>
+        </th>
+      </tr>
+      <tr>
+        <th style="width: 13.8%;    vertical-align:sub;">
+          <!-- <a target="_blank" href="./photo/TTL - Taichung Distillery Single Grain Whisky Cask Strength Sherry Cask.jpg">
+          <img id="item_img" src="./photo/TTL - Taichung Distillery Single Grain Whisky Cask Strength Sherry Cask.jpg"
+            alt="">
+          </a> -->
+          <div class='image2 imageSele'></div>
+          <p class="detail">&nbsp;700ml&nbsp;&nbsp;56.4%</p>
+        </th>
+        <th>
+          <ul id="word_des">
+            <h4 id="item_name">台中酒廠 穀蘊 原桶強度單一穀類威士忌 雪莉桶</h4>
+            <h6 id="foreign_name">TTL - Taichung Distillery Single Grain Whisky Cask Strength Sherry Cask</h6>
+            <p style="height: 0.1px;">
+
+              <li class="item_des">香氣 Nose&nbsp;&nbsp;：<a>雞蛋花、葡萄乾等香氣杏桃、無花果及水蜜桃等甜香在中層飄然舒展。</a></li>
+              <li class="item_des">口感 Palate&nbsp;：<a>口感圓潤優雅，以乾淨的雪莉甜感為主調性。</a></li>
+              <li class="item_des">尾韻 Finish&nbsp;：<a>尾韻則浮現杉木、中草藥等木質調性，層次豐富鮮明、甜美討喜。</a></li>
+              <br><br><br><br>
+          </ul>
+        </th>
+      </tr>
+    </table>
+    <p id="foreign" style="position: relative;top:-70px"></p>
+    <div>
+      <h3 class="title"><b>【國際】</b></h3>
+    </div>
+
+    <table style="margin-left: 5%;margin-top: 0%;">
+      <tr>
+        <th style="width: 13.8%;    vertical-align:sub;">
+          <!-- <a target="_blank" href="./photo/Chieftain's Single Grain Scotch Whisky 1999 Dumbarton.jpg">
+          <img id="item_img" src="./photo/Chieftain's Single Grain Scotch Whisky 1999 Dumbarton.jpg">
+        </a> -->
+        <div class='image3 imageSele'></div>
+          <p class="detail">&nbsp;700ml&nbsp;&nbsp;50.7%</p>
+        </th>
+        <th>
+          <ul id="word_des">
+            <h4 id="item_name">老酋長 - 單一穀物 1999年 Dumbarton 登巴頓 威士忌原酒</h4>
+            <h6 id="foreign_name">Chieftain's Single Grain Scotch Whisky 1999 Dumbarton</h6>
+            <p style="height: 0.1px;">
+              <li class="item_des">香氣 Nose&nbsp;&nbsp;：<a>明顯的糖蜜甜香，暗藏著草本氣息和絲絲的柑橘香，深吸一口氣，吐氣時出現清新的草莓芬芳。</a></li>
+              <li class="item_des">口感 Palate&nbsp;：<a>迷人的滑順口感，散發西洋梨及糖霜的多重滋味。</a></li>
+              <li class="item_des">尾韻 Finish&nbsp;：<a>尾韻如滴入水中的顏料，優雅地渲染散開來。</a></li>
+              <br><br><br><br>
+          </ul>
+        </th>
+      </tr>
+      <tr>
+        <th style="width: 13.8%;    vertical-align:sub;">
+          <!-- <a target="_blank" href="https://www.libaga.com.tw/uploads/drink/ec3cc331cfbc52d28f2b330ae9f06f62.jpg">
+          <img style="width: 80%;float:right;" id="item_img" src="./photo/Nikka Coffey Grain Malt.jpg">
+        </a> -->
+        <div class='image4 imageSele'></div>
+          <p class="detail">&nbsp;700ml&nbsp;&nbsp;45%</p>
+        </th>
+        <th>
+          <ul id="word_des">
+            <h4 id="item_name">Nikka (日本尼卡) 穀物威士忌</h4>
+            <h6 id="foreign_name">Chieftain's Single Grain Scotch Whisky 1999 Dumbarton</h6>
+            <p style="height: 0.1px;">
+              <li class="item_des">香氣 Nose&nbsp;&nbsp;：<a>明顯的糖蜜甜香，暗藏著草本氣息和絲絲的柑橘香，深吸一口氣，吐氣時出現清新的草莓芬芳。</a></li>
+              <li class="item_des">口感 Palate&nbsp;：<a>迷人的滑順口感，散發西洋梨及糖霜的多重滋味。</a></li>
+              <li class="item_des">尾韻 Finish&nbsp;：<a>尾韻如滴入水中的顏料，優雅地渲染散開來。</a></li>
+              <br><br><br><br>
+          </ul>
+        </th>
+      </tr>
+      <tr>
+        <th style="width: 13.8%;    vertical-align:sub;">
+          <!-- <a target="_blank" href="https://www.libaga.com.tw/uploads/drink/790b1df513065d9ea43f03d5acc310ff.jpg">
+          <img style="width: 90%;float:right;" id="item_img" src="./photo/Hamiltons Lowland Single Grain.jpg">
+        </a> -->
+        <div class='image5 imageSele'></div>
+          <p class="detail">&nbsp;700ml&nbsp;&nbsp;40%</p>
+        </th>
+        <th>
+          <ul id="word_des">
+            <h4 id="item_name">漢米爾低地單一穀物威士忌</h4>
+            <h6 id="foreign_name">Hamiltons Lowland Single Grain</h6>
+            <p style="height: 0.1px;">
+              <li class="item_des">香氣 Nose&nbsp;&nbsp;：<a>太妃糖的香甜，帶著柑橘花開的香氣，尾香帶些許香草氣息。</a></li>
+              <li class="item_des">口感 Palate&nbsp;：<a>在嘴中爆擊的花香與核桃香甜氣息與討喜的水果風味完美結合。</a></li>
+              <li class="item_des">尾韻 Finish&nbsp;：<a>非常的柔順且奶香味迷人，尾韻十分悠長。</a></li>
+              <br><br><br><br>
+          </ul>
+        </th>
+      </tr>
+      <tr>
+    </table>
+    <br>
+  </main>
+
+
+
+
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  <script>
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+
+<script src="./imageToBig.js"></script>
+
+  <footer>
+    <div class="err">禁止酒駕
+      <img class="icon1" src="./photo/bottomIcon1.png">
+      酒後不開車
+      <img class="icon1" src="./photo/bottomIcon2.png">
+      未滿18歲&nbsp;禁止飲酒
+    </div>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+.nav-item:hover{
+    background-image: linear-gradient(rgb(0, 66, 66),rgb(0, 66, 66));
+    transition-duration: 0.4s;
+    transition-timing-function: linear;
+    border-radius: 20px;
+    transform:  translateY(-2.5px);
+  }
+
+  #downlist:active {
+    background-color: rgba(119, 136, 153, 0.238);
+    color: black;
+    font-weight: bold;
+  }
+
+ nav{
+  width:100%;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  border-top: solid 0.1em none;
+  border-bottom:  solid 0.1em none;
+  white-space: nowrap;
+  top: 22px;
+  margin: auto;
+  z-index: 98;
+}
